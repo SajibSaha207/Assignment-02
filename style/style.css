@@ -1,6 +1,4 @@
-/* font-family: "Inter", sans-serif; */
-/* font-family: "Noto Serif", serif; */
-
+ 
 /* Common CSS */
 body {
     background-color: #f5f8ff;
@@ -355,3 +353,42 @@ input[type=submit] {
     background-color: var(--accent-color);
     border-radius: 0 3px 3px 0;
 }
+
+/* Footer Part CSS Start Here */
+footer {
+    max-width: 1140px;
+    margin: auto;
+    padding: 50px 0;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: 360px 85px 130px 216px;
+    justify-content: space-between;
+}
+
+.footer-brand img {
+    width: 135px;
+    margin-bottom: 20px;
+}
+
+.footer-menu ul {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.footer-menu ul li {
+    list-style: none;
+    font-size: 1em;
+    color: var(--text-color);
+}
+
+.icon-group {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 25px;
+}
+
+
